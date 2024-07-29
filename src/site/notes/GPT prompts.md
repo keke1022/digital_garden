@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/gpt-prompts/"}
+{"dg-publish":true,"permalink":"/GPT prompts/"}
 ---
 
 
