@@ -100,12 +100,12 @@ Therefore, **load metrics cannot directly determine shape**, and require an addi
 	- [ ] Compute/Memory: `sm__inst_executed.avg.per_cycle_active`and `dram__bytes.avg.per_second`. 
 		- Smaller Model -> higher Compute/Memory. 
 		- Because smaller model can put parameters inside L1/L2 caches. 
-		- Compare prefilling and decoding
+		- Compare prefilling and decoding: no difference
 
 - [ ] Tensor Core bypass? not use Tensor Core
 	- Efficiency drops
 
-smaller datatype benchmark
+For smaller datatype benchmark
 - look into pmc
 
 GPGPU-Sim

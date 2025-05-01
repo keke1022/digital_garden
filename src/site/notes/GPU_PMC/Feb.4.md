@@ -17,7 +17,7 @@ kernel name能不能修改?
 可以, 但是需要修改二进制文件
 
 ## Potential Ways of Solving
-![Screenshot 2025-02-03 at 12.49.28 AM.png](/img/user/GPU_PMC/img/Screenshot%202025-02-03%20at%2012.49.28%20AM.png)
+![[Screenshot 2025-02-03 at 12.49.28 AM.png\|Screenshot 2025-02-03 at 12.49.28 AM.png]]
 
 - Use Invariants
 	- 有的列有pattern. 
@@ -44,8 +44,8 @@ kernel name能不能修改?
 - 线程内部计算
 - 存储计算结果到Global Memory
 	- 结果矩阵会被写回到global memory
-![Screenshot 2025-02-04 at 12.24.55 AM.png](/img/user/GPU_PMC/img/Screenshot%202025-02-04%20at%2012.24.55%20AM.png)
-![Screenshot 2025-02-04 at 4.41.42 PM.png](/img/user/GPU_PMC/img/Screenshot%202025-02-04%20at%204.41.42%20PM.png)
+![[Screenshot 2025-02-04 at 12.24.55 AM.png\|Screenshot 2025-02-04 at 12.24.55 AM.png]]
+![[Screenshot 2025-02-04 at 4.41.42 PM.png\|Screenshot 2025-02-04 at 4.41.42 PM.png]]
 
 - **L2 Cache**(RTX 4090 是 72MB)
 	- 作用：所有Blocks共享L2 Cache，可以缓存Global Memory访问的数据
